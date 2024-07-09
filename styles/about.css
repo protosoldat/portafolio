@@ -1,0 +1,27 @@
+.about {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.about__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about__paragraph {
+    margin-bottom: 20px;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.signature {
+    font-size: 1.5rem;
+    height: auto;
+    align-items: right;
+}

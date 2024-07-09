@@ -1,0 +1,56 @@
+.experiencia {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin-top: 20px;
+    text-align: justify;   
+}
+
+.about__paragraph {
+    margin-bottom: 10px;
+}
+
+.experiencia ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiencia li {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.experiencia h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.experiencia h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.experiencia p {
+    font-size: 1rem;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+

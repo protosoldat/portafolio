@@ -1,0 +1,86 @@
+.experience {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.experience__section__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.experience__box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience__img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    flex: 1 1 300px;
+    border-radius: 10px;
+}
+
+.experience__info {
+    text-align: left;
+    flex: 1 1 300px;
+    padding: 20px;
+}
+
+.experience__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.experience__text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.experience__description {
+    margin-bottom: 10px;
+}
+
+.experience__repo a {
+    text-decoration: none;
+}
+
+.experience__button--repo {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.experience__button--repo:hover {
+    background-color: #0056b3;
+}
+
+.experiencia__botao--repo{
+    background-color: #5a02fd00;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .experience__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__img,
+    .experience__info {
+        flex: 1 1 100%;
+    }
+}

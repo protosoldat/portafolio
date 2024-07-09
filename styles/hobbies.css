@@ -1,0 +1,21 @@
+.hobbies {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.hobbies__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobbies__box {
+    width: calc(50% - 10px);
+    text-align: center;
+}
