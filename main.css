@@ -1,0 +1,80 @@
+@import url("styles/reset.css");
+@import url("styles/header.css");
+@import url("styles/contacto.css");
+@import url("styles/footer.css");
+@import url("styles/skills.css");
+@import url("styles/education.css");
+@import url("styles/about.css");
+@import url("styles/experience.css");
+@import url("styles/hobbies.css");
+@import url("styles/formacion.css");
+@import url("styles/experiencep.css");
+
+body {
+  background-color: #b9b7b7;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  overflow-x: hidden;
+}
+  
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+  
+section {
+  max-width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  margin: 0 auto;
+  gap: 5px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+  
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.scrollTopBtn {
+  display: none; /* Ocultado por defecto */
+  position: fixed; /* Fijo en la pantalla */
+  bottom: 20px; /* A 20px de la parte inferior */
+  right: 30px; /* A 30px de la parte derecha */
+  z-index: 99; /* Asegura que esté por encima de otros elementos */
+  border: none; /* Sin bordes */
+  outline: none; /* Sin contorno */
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  cursor: pointer; /* Muestra el cursor de mano */
+  padding: 15px; /* Espaciado interior */
+  border-radius: 10px; /* Bordes redondeados */
+  font-size: 18px; /* Tamaño del texto */
+}
+
+.scrollTopBtn:hover {
+  background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+
+  section {
+    max-width: 960px;
+  }
+}
